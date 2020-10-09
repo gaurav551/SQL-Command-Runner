@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "CS1YKv4bfE97mJLWOTPxQy/eIS5f5l+igtZ+SSUY2iL10eXoMhzj3jw37puJbUXaZQ8g+HGQAz5CTjW3acOs0w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gaurav\\Desktop\\c#Apps\\NewConsoleApps\\SQLandCommandRunner\\COmmandRunner.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gaurav\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0-preview.8.20407.11\\microsoft.netcore.platforms.5.0.0-preview.8.20407.11.nupkg.sha512",
+    "C:\\Users\\Gaurav\\.nuget\\packages\\microsoft.win32.registry\\5.0.0-preview.8.20407.11\\microsoft.win32.registry.5.0.0-preview.8.20407.11.nupkg.sha512",
+    "C:\\Users\\Gaurav\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0-preview.8.20407.11\\microsoft.win32.systemevents.5.0.0-preview.8.20407.11.nupkg.sha512",
+    "C:\\Users\\Gaurav\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\Gaurav\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Gaurav\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Gaurav\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\Gaurav\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0-preview.8.20407.11\\system.configuration.configurationmanager.5.0.0-preview.8.20407.11.nupkg.sha512",
+    "C:\\Users\\Gaurav\\.nuget\\packages\\system.data.oledb\\5.0.0-preview.8.20407.11\\system.data.oledb.5.0.0-preview.8.20407.11.nupkg.sha512",
+    "C:\\Users\\Gaurav\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\system.data.sqlclient.4.8.2.nupkg.sha512",
+    "C:\\Users\\Gaurav\\.nuget\\packages\\system.diagnostics.performancecounter\\5.0.0-preview.8.20407.11\\system.diagnostics.performancecounter.5.0.0-preview.8.20407.11.nupkg.sha512",
+    "C:\\Users\\Gaurav\\.nuget\\packages\\system.drawing.common\\5.0.0-preview.8.20407.11\\system.drawing.common.5.0.0-preview.8.20407.11.nupkg.sha512",
+    "C:\\Users\\Gaurav\\.nuget\\packages\\system.security.accesscontrol\\5.0.0-preview.8.20407.11\\system.security.accesscontrol.5.0.0-preview.8.20407.11.nupkg.sha512",
+    "C:\\Users\\Gaurav\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0-preview.8.20407.11\\system.security.cryptography.protecteddata.5.0.0-preview.8.20407.11.nupkg.sha512",
+    "C:\\Users\\Gaurav\\.nuget\\packages\\system.security.permissions\\5.0.0-preview.8.20407.11\\system.security.permissions.5.0.0-preview.8.20407.11.nupkg.sha512",
+    "C:\\Users\\Gaurav\\.nuget\\packages\\system.security.principal.windows\\5.0.0-preview.8.20407.11\\system.security.principal.windows.5.0.0-preview.8.20407.11.nupkg.sha512",
+    "C:\\Users\\Gaurav\\.nuget\\packages\\system.windows.extensions\\5.0.0-preview.8.20407.11\\system.windows.extensions.5.0.0-preview.8.20407.11.nupkg.sha512"
+  ],
+  "logs": []
+}
