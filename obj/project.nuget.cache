@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CS1YKv4bfE97mJLWOTPxQy/eIS5f5l+igtZ+SSUY2iL10eXoMhzj3jw37puJbUXaZQ8g+HGQAz5CTjW3acOs0w==",
+  "dgSpecHash": "LBsr6SMP1CL6tQt2xFi/4HuSlmmw1eB1J/z8ri7lga45sL5bLCME0azVWufVFOFvq0kURAWX2trmzZH6ge1iHw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gaurav\\Desktop\\c#Apps\\NewConsoleApps\\SQLandCommandRunner\\COmmandRunner.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Gaurav\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0-rc.1.20451.14\\microsoft.extensions.logging.abstractions.5.0.0-rc.1.20451.14.nupkg.sha512",
     "C:\\Users\\Gaurav\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0-preview.8.20407.11\\microsoft.netcore.platforms.5.0.0-preview.8.20407.11.nupkg.sha512",
     "C:\\Users\\Gaurav\\.nuget\\packages\\microsoft.win32.registry\\5.0.0-preview.8.20407.11\\microsoft.win32.registry.5.0.0-preview.8.20407.11.nupkg.sha512",
     "C:\\Users\\Gaurav\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0-preview.8.20407.11\\microsoft.win32.systemevents.5.0.0-preview.8.20407.11.nupkg.sha512",

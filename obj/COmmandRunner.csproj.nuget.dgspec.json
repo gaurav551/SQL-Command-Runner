@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0-rc.1.20451.14, )"
+            },
             "System.Data.OleDb": {
               "target": "Package",
               "version": "[5.0.0-preview.8.20407.11, )"

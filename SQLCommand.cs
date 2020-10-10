@@ -1,46 +1,40 @@
-// using System;
-// using System.Collections.Generic;
-// using genericRepoDemo.Models;
-// using Microsoft.Extensions.Configuration;
-// using MySql.Data.MySqlClient;
+using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using SQLandCommandRunner;
 
-// namespace COmmandRunner
-// {
-//     public class StockRepository
-//     {
-       
+namespace COmmandRunner
+{
+    public class StockRepository
+    {
+       string _connString = "";
+        public List<Stock> GetAllStocks()
+        {
+            var stocks = new List<Stock>();
 
-       
-//            string _connString = configuration.GetConnectionString("DefaultConnection");
-        
+            using (var conn = new SqlConnection(_connString))
+            {
+                conn.Open();
 
-//         public List<Stock> GetAllStocks()
-//         {
-//             var stocks = new List<Stock>();
+                var selectQuery = "select * from stock";
 
-//             using (var conn = new MySqlConnection(_connString))
-//             {
-//                 conn.Open();
+                var command = new SqlCommand(selectQuery, conn);
 
-//                 var selectQuery = "select * from stock";
+                var reader = command.ExecuteReader();
 
-//                 var command = new MySqlCommand(selectQuery, conn);
+                while (reader.Read())
+                {
+                    var stock = new Stock();
 
-//                 var reader = command.ExecuteReader();
+                    stock.Id = Convert.ToInt32(reader["Id"]);
+                    stock.ProductName = reader["ProductName"].ToString();
+                    stock.Quantity = Convert.ToInt32(reader["Quantity"]);
 
-//                 while (reader.Read())
-//                 {
-//                     var stock = new Stock();
+                    stocks.Add(stock);
+                }
+            }
 
-//                     stock.Id = Convert.ToInt32(reader["Id"]);
-//                     stock.ProductName = reader["ProductName"].ToString();
-//                     stock.Quantity = Convert.ToInt32(reader["Quantity"]);
-
-//                     stocks.Add(stock);
-//                 }
-//             }
-
-//             return stocks;
-//         }
-//     }
-// }
+            return stocks;
+        }
+    }
+}
