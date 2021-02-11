@@ -26,7 +26,7 @@ namespace SQLandCommandRunner
             }
             if (IsTrue())
             {
-                //Command prompt comman to rub
+                //Run powershell command
                 string commandToRun = "python --version";
                 System.Diagnostics.Process si = new System.Diagnostics.Process();
                 si.StartInfo.WorkingDirectory = "c:\\";
@@ -45,6 +45,7 @@ namespace SQLandCommandRunner
 
 
         }
+        //Check if database is connected.
         public static bool IsTrue()
         {
 
